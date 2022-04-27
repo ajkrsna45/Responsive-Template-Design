@@ -1,0 +1,741 @@
+<!-- TO design template using bootstrap 
+first header__content starting just like a container class__1140px by default
+for taking our div in the center-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css", integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni", crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+  <!--  -->
+
+
+    <!-- <style>
+a{
+    text-decoration: none;
+}
+        #header{
+            color: #fff;
+            background-color: #e74c3c;
+            /* background-color: #e67e22; */
+        }
+        .section{
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .section h2.section-head{
+            color: #000;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .section h2.section-head:after{
+            background-color: #e74c3c;
+            content: "";
+            display: block;
+            width: 100px;
+            height: 3px;
+            margin: 20px auto;
+
+ 
+        }
+        #menu{
+            list-style: none;
+            margin: 0; -->
+          <!-- ne; -->
+            <!-- font-size: large; -->
+
+        <!-- }
+        #menu li a:hover{
+            background-color: #e67e22;
+        } 
+        #banner{ -->
+            <!-- background: url('al.jpg') no-repeat 0 0;
+            background-size: cover;
+        }
+        .banner-title{
+            padding-top: 5rem;
+        }
+        .banner-title h1{
+
+        background-color: rgba(255,255,255,0.8); -->
+        <!-- display: inline-block;
+        padding: 10px;
+        margin: 0; -->
+        <!-- }  -->
+         <!-- /* padding-top:10px; */
+            /* padding-left: 300px; */
+            padding: 0;
+        }
+        #menu li{
+            display: inline-block;
+            /* padding-left: 200px; */
+        }
+        #logo{
+            font-size:2rem;
+            margin-top: 5px;
+        }
+        #menu li a{
+            color: #fff;
+            /* background-color: #; */
+            /* padding: 150px 10px; */
+            /* margin: 90px; */
+            padding: 15px 10px;
+            text-decoration: no
+     .lead{
+            background-color: rgba(241, 154, 122, 0.8);
+        }
+        .service-box{
+            text-align: center;
+        }
+        .service-box i.fa{
+            color: #e74c3c;
+            font-size: 70px;
+            margin-bottom: 15px;
+
+        }
+        #testimonial{
+            /* background-image: url(mobile.jpg) no-rep; */
+            background: url('mobile\ \(2\).jpg') no-repeat 0 0;
+            background-size: cover;
+            padding:50px 0 ;
+            position: relative;
+        }
+
+ #testimonial:before{
+     background:rgba(52, 73,94,0.2);
+     content:"";
+     position:absolute;
+     top: 0;
+     width: 100%;
+     height: 100%;
+ }
+ .Testimonials{
+     border-radius: 50%;
+     color: #fff;
+ }
+ .news-post{
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: auto;
+
+}
+/* .a{
+    height: 100px;
+    width: 100px;
+} */
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.news-post h3{
+    font-size: 1.35rem;
+}
+.news-post h3 a{
+    color: #e74c3c;
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.post-date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+
+}
+a.readmore{
+    font-size: 14px;
+}
+a.readmore:before{
+    content: "\f101";
+    font-family: FontAwesome;
+    color: #e74c3c;
+    
+    
+
+    
+    
+
+}
+#footer-sidebar{
+    color: #fff;
+    background-color: #34495e;
+    padding: 20px 0;
+
+}
+.footer-wedget h4:after{
+    content: "";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;  
+    margin: 5px 0;
+
+}
+.footer-wedget a{
+    color: #fff;
+}
+.latestnews{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.latestnews li{
+    margin-bottom: 3px;
+}
+.latestnews li:before{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 5px;
+       
+}
+.footer{
+    color: #fff;
+    background-color: #1d2227;
+    padding: 10px 0;
+
+}
+#social-icons{
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+#social-icons li{
+    display: inline-block;
+    padding-left: 5px;
+    
+
+}
+
+#social-icons li a{
+    color: #fff;
+    font-size: 23px;
+}
+@media(max-width:992px){
+
+    
+}
+
+ @media(max-width:768px){
+     #logo{
+         text-align: center;
+         margin:10px 0 ;
+     }
+     #menu{
+         text-align: center;
+     }
+     .section{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+     .testimonial{
+         text-align: center;
+         margin-bottom: 30px;
+
+     }
+     .banner-title h1{
+
+font-size: 1.7rem;
+}
+     .banner-title{
+            padding-top: 0;
+        }
+     .service-box{
+        margin-bottom: 30px;
+
+
+     }
+     .footer-wedget{
+         margin-bottom: 20px;
+     }
+     .footer{
+         text-align: center;
+     }
+     #social-icons{
+         margin-top: 10px;
+     }
+
+ }
+    </style>
+</head> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap 4 Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 ml-3">
+					<!-- <h1 id="logo">Krishna's World</h1> -->
+                    <img src="design-hub-logo-removebg-preview.png" width="300px" height="50px" alt="">
+				</div>
+				<div class="col-md-8 mr-3">
+					<ul id="menu" class="float-md-right">
+						<li><a href="Image and video_classes.html">Home</a></li>
+						<li><a href="https://youtu.be/wlxfIIgKZho">About Us</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="">Products</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="banner" class="mb-2 py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-lg-6">
+					<div class="banner-title">
+						<h1 class="title">Krishna's World</h1>
+						<p class="lead">All Attractive,Full with all 6 opulances,Omnipotent and omniscient</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mb-5 section" style="background-color: rgb(181, 153, 206);">
+	<!-- <div class=" mb-5 section" style="background-color: rgb(192, 149, 179);"> -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="section-head">Holy Places</h2>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="service-box">
+					<!-- <i class="fa fa-anchor"></i> -->
+                    <img id="imgg" src="OIP.jpg" style="border-radius: 50%;
+                    margin-bottom: 5px;" alt="">
+					<h3><a href="https://www.bing.com/images/search?q=vrndavan&form=HDRSC2&first=1&tsc=ImageBasicHover" style="text-decoration: none;color: rgb(148, 38, 38);">Vrindavan</a></h3>
+					<p>Hare Krishna Hare Krishna,Krishna Krishna Hare Hare<br>
+                        Hare Ram Hare Ram,Ram Ram Hare Hare
+                    </p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="service-box">
+					<!-- <i class="fa fa-bar-chart"></i> -->
+                    <img id="imgg1" src="OIP1.jpg" style="border-radius: 50%;
+                    margin-bottom: 5px;" alt="">
+					<h3><a href="https://www.bing.com/images/search?q=mathura&qs=n&form=QBIR&sp=-1&pq=mathura&sc=8-7&cvid=9DC2F31FC6C947C7AB8D19BC13E7684C&ajf=70&first=1&tsc=ImageBasicHover" style="text-decoration: none;color: rgb(230, 31, 31);">Mathura</a></h3>
+					
+					<p>Hare Krishna Hare Krishna,Krishna Krishna Hare Hare<br>
+                        Hare Ram Hare Ram,Ram Ram Hare Hare</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="service-box">
+					<!-- <i class="fa fa-diamond"></i> -->
+                    <img id="imgg2" src="OPI2.jpg" alt="">
+                    <h3><a href="https://www.bing.com/images/search?q=jagannath+temple&qs=MM&form=QBIR&sp=2&pq=jagannth+&sc=8-9&sk=MM1&cvid=ECBC4AE0A71740B2A2396DB05F2F7E6D&first=1&tsc=ImageBasicHover" style="text-decoration: none;color: rgb(136, 44, 44);">Jagannath Puri</a></h3>
+					
+					<p>Hare Krishna Hare Krishna,Krishna Krishna Hare Hare<br>
+                        Hare Ram Hare Ram,Ram Ram Hare Hare</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="container section bg-secondary"> -->
+	<div class="mb-5 section bg-secondary">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="section-head">Holy Places</h2>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="service-box">
+					<i class="fa fa-anchor"></i>
+					<h3>Vrindavan</h3>
+					<p>Hare Krishna Hare Krishna,Krishna Krishna Hare Hare<br>
+                        Hare Ram Hare Ram,Ram Ram Hare Hare
+                    </p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="service-box">
+					<!-- <i class="fa fa-bar-chart"></i> -->
+                    <!-- <img id="imgg" src="images/bill-gates.jpg" style="border-radius: 50%; -->
+                    <img id="imgg5" src="137.jpg" style="border-radius: 100%;
+                    margin-bottom: 5px;" alt="">
+					<h3>Mathura</h3>
+					<p>Hare Krishna Hare Krishna,Krishna Krishna Hare Hare<br>
+                        Hare Ram Hare Ram,Ram Ram Hare Hare</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="service-box">
+					<i class="fa fa-diamond"></i>
+					<h3>Jagannath Puri</h3>
+					<p>Hare Krishna Hare Krishna,Krishna Krishna Hare Hare<br>
+                        Hare Ram Hare Ram,Ram Ram Hare Hare</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="testimonials" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="section-head text-white">Scripture</h2>
+				</div>
+				<div class="col-md-6">
+					<div class="testimonial">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae reprehenderit autem inventore, nemo, maxime tempore.</p>
+						<!-- <img src="images/bill-gates.jpg" alt=""> -->
+						<img id="imgg4" src="OIP4.jpg" alt="">
+						<div class="author">Bhagvad Gita</div>
+						<div class="author-company">Iskcon</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="testimonial">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae reprehenderit autem inventore, nemo, maxime tempore.</p>
+						<!-- <img src="images/steve-jobs.jpg" alt=""> -->
+						<img id="imgg3" src="OIP2.jpg" alt="">
+						<div class="author">Srimad Bhagvatam</div>
+						<div class="author-company">Iskcon</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="news" class="container section">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="section-head">Recent News</h2>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<div class="news-post">
+					<!-- <img src="images/post-1.jpg" alt=""> -->
+					<img src="135.jpg" alt="">
+					<h3><a href="">Iskcon Temple,Kanpur</a></h3>
+					<div class="post-date">July 1, 2021</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
+					<a href="" class="readmore">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<div class="news-post">
+					<!-- <img src="images/post-2.jpg" alt=""> -->
+					<img src="125.jpg" alt="">
+					<h3><a href="">Iskcon Temple,Vrindavan</a></h3>
+					<div class="post-date">July 1, 2021</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
+					<a href="" class="readmore">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-6  col-lg-3">
+				<div class="news-post">
+					<!-- <img src="images/post-3.jpg" alt=""> -->
+					<img src="126.jpg" alt="">
+					<h3><a href="">Iskcon Temple,Mumbai</a></h3>
+					<div class="post-date">July 1, 2021</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
+					<a href="" class="readmore">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<div class="news-post">
+					<!-- <img src="images/post-4.jpg" alt=""> -->
+					<img src="127.jpg" alt="">
+					<h3><a href="">Iskcon Temple,Delhi</a></h3>
+					<div class="post-date">July 1, 2021</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
+					<a href="" class="readmore">Read More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer-sidebar">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="footer-widget">
+						<h4>About Company</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro praesentium, doloremque, aperiam recusandae rem aliquam.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, molestias.</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="footer-widget">
+						<h4>Latest News</h4>
+						<ul class="latest-news">
+							<li><a href="">Lorem ipsum dolor sit amet, consectetur.</a></li>
+							<li><a href="">Lorem ipsum dolor sit amet, consectetur.</a></li>
+							<li><a href="">Lorem ipsum dolor sit amet, consectetur.</a></li>
+							<li><a href="">Lorem ipsum dolor sit amet, consectetur.</a></li>
+							<li><a href="">Lorem ipsum dolor sit amet, consectetur.</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="footer-widget">
+						<h4>Company Address</h4>
+						<address>
+							<b>HARE KRISHNA</b><br>
+							ISKCON Kanpur, Uttar Pradesh<br>
+							India, INDIA 224159<br>
+                            <i class="fab fa-whatsapp-square"></i>
+							P : 7379518451
+						</address>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">copyright@2020 company name.</div>
+				<div class="col-md-6">
+					<ul id="social-icons" class="float-md-right">
+						<li><a href="" class="fa fa-facebook-square"></a></li>
+						<li><a href="" class="fa fa-twitter-square"></a></li>
+						<li><a href="" class="fa fa-linkedin-square"></a></li>
+						<!-- <li><a href="" class="fa fa-linkedin-square"></a></li> -->
+						<li><a href="" class="fa fa-instagram-square"></a></li>
+						<li><a href="" class="fa fa-whatsapp-square"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<!-- <body>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 id="logo">Company Name</h1>
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-right">
+                        <!-- <div class="float-right">Float right on all viewport sizes</div><br> -->
+                        <!-- <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div id="banner" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-6">
+                    <div class="banner-title">
+                        <h1 class="title">
+                            Some Heading Goes here
+                        </h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis at suscipit quam debitis, fugiat cupiditate molestias perspiciatis corrupti aut ex!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="container section"> -->
+         <!-- <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-head">Some Heading goes here</h2>
+            </div>
+            <div class=" col-sm-6  col-md-4"> -->
+            <!-- <div class="col-md-4"> -->
+                <!-- <div class="service-box">
+                    <!-- <i class="fa fa-anchor" aria-hidden="true"></i> -->
+                    <!-- <i class="fa fa-anchor"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quisquam!</p>
+                </div>
+            </div>
+            <div class="col-md-4  col-sm-6"> --> -->
+            <!-- <div class="col-md-4"> -->
+                <!-- <div class="service-box"> -->
+                    <!-- <i class="fabfonty fa-facebook-f"></i>
+                     -->
+                     <!-- <i class="fab fa-angular"></i> -->
+                     <!-- <i class="fa fa-chart-bar"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quisquam!</p>
+                </div>
+            </div>
+            <div class="col-md-4"> -->
+            <!-- <div class="col-md-4  col-md-6"> -->
+                <!-- <div class="service-box"> -->
+                    <!-- <i class="fa fa-diamond"></i> -->
+                    <!-- <i class="fa fa-gem"></i> -->
+                    <!-- <i class="fab fa-facebook-f"></i> -->
+                    <!-- <h3>Some Heading</h3> -->
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quisquam!</p> -->
+                <!-- </div> -->
+            <!-- </div> -->
+    
+        <!-- </div> -->
+    <!-- </div> -->
+    <!-- <div id="testimonial" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-head text-white">Testimonial</h2> -->
+
+                <!-- </div>
+                <div class="col-md-6">
+                    <div class="Testimonials">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et ut neque, impedit accusamus architecto sit. Ullam repellat facilis soluta unde.</p>
+                        <img src="bil.jpg" alt="">
+                        <div class="author">Bil gates</div>
+                        <div class="author-company">Microsoft</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Testimonials">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et ut neque, impedit accusamus architecto sit. Ullam repellat facilis soluta unde.</p>
+                        <img src="sj.jpg" alt="">
+                        <div class="author">Steve Jobs</div>
+                        <div class="author-company">Apple</div> -->
+                    <!-- </div>
+                </div>
+            </div> -->
+        <!-- </div>
+        </div>
+        <div id="news" class="container section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-head">Recent News</h2> -->
+                <!-- </div> -->
+                <!-- <div class="col-md-6 col-lg-3">
+                    <div class="news-post">
+                        <img src="post-4.jpg" alt="">
+                        <h3><a href="">News Heading Here</a></h3>
+                        <div class="post-date">April 30, 2020</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
+                        <a href="" class="readmore">Read More</a> -->
+                    <!-- </div> -->
+                <!-- </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="news-post">
+                        <img src="post-3.jpg" alt="">
+                        <h3><a href="">News Heading Here</a></h3>
+                        <div class="post-date">April 30, 2020</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
+                        <a href="" class="readmore">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6  col-lg-3">
+                    <div class="news-post">
+                        <img src="post-2.jpg" alt="">
+                        <h3><a href="">News Heading Here</a></h3>
+                        <div class="post-date">April 30, 2020</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
+                        <a href="" class="readmore">Read More</a>
+                    </div>
+                </div> -->
+                <!-- <div class="col-md-6 col-lg-3">
+                    <div class="news-post">
+                        <img src="post-1.jpg" alt="">
+                        <h3><a href="">News Heading Here</a></h3>
+                        <div class="post-date">April 30, 2020</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
+                        <a href="" class="readmore">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         <div id="footer-sidebar">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-4  col-sm-6">
+                         <div class="footer-wedget">
+                             <h4>About Company</h4> -->
+                             <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere temporibus distinctio impedit doloribus libero quo?</p>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, praesentium?</p>
+                         </div>
+
+                     </div>
+                     <div class="col-md-4  col-sm-6">
+                         <div class="footer-wedget">
+                             <h4>Latest News</h4>
+                             <ul class="latestnews">
+                                 <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
+                                 <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
+                                 <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
+                                 <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
+                                 <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li> -->
+                                 <!-- <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
+                             </ul>
+                                </div>
+
+                     </div>
+                     <div class="col-md-4  col-sm-6">
+                         <div class="footer-wedget">
+                             <h4>Company Address</h4>
+                             <address>
+                                 <b>Hare Krishna</b><br>
+                                 hareeecm  2334    543232<br>
+                                 Uttar Pradesh,224159<br>
+                                 P: 7379518451
+
+                                         
+                             </address>
+                             </div>
+
+                     </div>
+                 </div>
+             </div>
+             <div class="footer">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-md-6">colyright@2020 company name</div>
+                         <div class="col-md-6">
+                             <ul id="social-icons" class="float-md-right"> -->
+                                 <!-- <li><a href="" <i class="fab fa-facebook"></i></a></li>
+                                 <li><a href="" <i class="fab fa-instagram"></i></a></li>
+                                 <li><a href="" <i class="fab fa-twitter"></i></a></li>
+                             </ul>
+
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+    
+         
+
+        
+
+    
+   
+        
+       
+    
+</body>
+</html> -->
